@@ -1,5 +1,7 @@
 DISABLE-WINDOW-ANIMATIONS
 
+Works with Gnome Shell 3.0-3.2.
+
 This extension simply disable all window manager animations.
 
  * Window "slide-ins"
@@ -17,3 +19,12 @@ Create a folder in ~/.local/share/gnome-shell/extensions
 called disable-window-animations@github.com and move
 extension.js and metadata.json into that folder. Restart
 the gnome-shell. 
+
+FUTURE:
+
+Please note there is ongoing process to enable Gnome Shell to 
+load GConf setting for this. This extension will be unsupported 
+then. But the patch is not in the Gnome master yet, we will be
+releasing new versions until it gets in the stable.
+
+https://bugzilla.gnome.org/show_bug.cgi?id=655746
