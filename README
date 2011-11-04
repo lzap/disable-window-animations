@@ -1,6 +1,6 @@
 DISABLE-WINDOW-ANIMATIONS
 
-Works with Gnome Shell 3.0-3.2.
+Works with Gnome Shell 3.0-3.2 (Fedora, Ubuntu, anything...)
 
 This extension simply disable all window manager animations.
 
@@ -8,7 +8,7 @@ This extension simply disable all window manager animations.
  * Workspace "slide-ups" and "slide-downs"
  * Many more... :-)
 
-However it does NOT disable dash animations ("zoom-ins" and 
+However, it does NOT disable dash animations ("zoom-ins" and 
 "zoom-outs" etc.)
 
 Author: Lukas Zapletal [_lzap_at_seznam_dot_cz_]
@@ -18,13 +18,20 @@ INSTALLATION:
 Create a folder in ~/.local/share/gnome-shell/extensions
 called disable-window-animations@github.com and move
 extension.js and metadata.json into that folder. Restart
-the gnome-shell. 
+the gnome-shell:
+
+  # mkdir -p ~/.local/share/gnome-shell/extensions 2>/dev/null
+  # git clone git://github.com/lzap/disable-window-animations \
+    ~/.local/share/gnome-shell/extensions/disable-win-anims@github.com
+
+Alt-F2 and "rr" ENTER
 
 FUTURE:
 
 Please note there is ongoing process to enable Gnome Shell to 
 load GConf setting for this. This extension will be unsupported 
 then. But the patch is not in the Gnome master yet, we will be
-releasing new versions until it gets in the stable.
+releasing new versions until it gets in the stable AND Fedora.
 
 https://bugzilla.gnome.org/show_bug.cgi?id=655746
+
