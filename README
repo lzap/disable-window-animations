@@ -26,6 +26,10 @@ the gnome-shell:
 
 Alt-F2 and "rr" ENTER
 
+For Gnome Shell 3.2 you also need to turn the extension on. The easiest 
+way to do that is to install gnome-tweak-tool and go to Shell Extensions
+settings screen and turn it on (the switch-"thing" must have "I" on it).
+
 FUTURE:
 
 Please note there is ongoing process to enable Gnome Shell to 
