@@ -24,7 +24,7 @@ the gnome-shell:
   # git clone git://github.com/lzap/disable-window-animations \
     ~/.local/share/gnome-shell/extensions/disable-win-anims@github.com
 
-Alt-F2 and "rr" ENTER
+Alt-F2 and "r" ENTER
 
 For Gnome Shell 3.2 you also need to turn the extension on. The easiest 
 way to do that is to install gnome-tweak-tool and go to Shell Extensions
