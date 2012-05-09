@@ -1,5 +1,5 @@
 {
-  "shell-version": ["3.0", "3.0.1", "3.0.2", "3.2"], 
+  "shell-version": ["3.0", "3.0.1", "3.0.2", "3.2", "3.4"],
   "uuid": "disable-window-animations@github.com",
   "name": "Disable Window Animations",
   "description": "Disables window manager animations including workspace switching"
